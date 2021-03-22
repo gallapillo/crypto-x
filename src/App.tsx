@@ -4,12 +4,15 @@ import Grid from '@material-ui/core/Grid';
 
 import { CryptoTable, ConverterBlock } from './components';
 import useStyles from './styles';
+import HeaderBlock from "./components/HeaderBlock/HeaderBlock";
 
 function App() {
   const classes: any = useStyles();
 
   return (
+
     <Container className={classes.root} maxWidth="lg">
+        <HeaderBlock></HeaderBlock>
       <Grid container spacing={3}>
         <Grid item xs={8}>
           <CryptoTable classes={classes} />

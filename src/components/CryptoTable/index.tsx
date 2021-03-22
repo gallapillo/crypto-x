@@ -48,10 +48,10 @@ const CryptoTable = inject(
           <TableHead>
             <TableRow>
               <TableCell></TableCell>
-              <TableCell align="left">Name</TableCell>
-              <TableCell align="left">FullName</TableCell>
-              <TableCell align="left">Price</TableCell>
-              <TableCell align="left">volume24hour</TableCell>
+              <TableCell align="left">Имя</TableCell>
+              <TableCell align="left">ПолноеИмя</TableCell>
+              <TableCell align="left">Цена</TableCell>
+              <TableCell align="left">Объем24Часа</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
